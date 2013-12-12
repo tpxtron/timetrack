@@ -1,20 +1,25 @@
 <?php if (isset($error)): ?>
-<div id="error_box">
-	<strong><?php echo $error ?></strong>
-</div>
+<div class="alert alert-danger"><?php echo $error; ?></div>
 <?php endif; ?>
-<form class="login" action="show.php" method="post">
-	<h1>
-	TimeTrack
-	</h1>
-	<p>
-	<label for="name">Benutzername:</label><br>
-		<input type="text" name="u" id="name" />
-	</p><p>
-	<label for="password">Passwort:</label><br>
-		<input type="password" name="p" id="password" />
-	</p>
-	<p>
-		<input type="submit" id="login" value="Login" />
-	</p>
-</form>
+<div class="container">
+	<div class="row row-login">
+		<div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-3">
+			<form action="show.php" method="post">
+				<div class="well">
+					<h1>TimeTrack</h1>
+					<p>
+					<label for="name">Benutzername:</label><br>
+						<input type="text" name="u" id="name" class="form-control" />
+					</p><p>
+					<label for="password">Passwort:</label><br>
+						<input type="password" name="p" id="password" class="form-control" />
+					</p>
+					<p>
+						<input type="submit" id="login" value="Login" class="btn btn-default form-control gap-top-small" />
+					</p>
+					<div class="clearfix"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

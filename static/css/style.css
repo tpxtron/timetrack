@@ -9,70 +9,6 @@ body
 	line-height:1.6em;
 }
 
-table
-{
-	cursor: default;
-	border-collapse:collapse;
-}
-
-th {
-	font-weight: bold;
-	font-size: 11px;
-	color: #6D929B;
-	border: 1px solid #C1DAD7;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	text-align: left;
-	padding: 6px 6px 6px 12px;
-	background: #CAE8EA no-repeat;
-}
-
-td {
-	font-family: Courier, Fixed;
-	border: 1px solid #C1DAD7;
-	padding: 3px 6px 3px 12px;
-	color: #6D929B;
-}
-
-
-td.alt {
-	background: #F5FAFA;
-	color: #B4AA9D;
-}
-
-td.specialday,
-td.holidays {
-	background-color: #e5e6c7;
-	color: #6f7269;
-}
-
-td.specialday {
-	font-weight: bold;
-}
-
-td.specialday a.unavail_remove
-{
-	font-weight: normal;
-	float: right;
-	font-size: 10px;
-	color: blue;
-}
-
-tr
-{
-	background-color:#ffffff;
-}
-
-tr.alt
-{
-	background-color:#eeeeee;
-}
-
-tr:hover,
-tr.alt:hover
-{
-	background-color:#dddddd;
-}
 
 span.unavail {
 	background: #d5cea6;
@@ -326,8 +262,6 @@ span.negative_value
 }
 
 .day_data,
-#month_diff,
-#day_diff,
 #day_diff_earliest
 {
 	float:left;
